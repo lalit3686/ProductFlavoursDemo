@@ -20,7 +20,7 @@ android {
 
     signingConfigs {
         releaseConfig {
-            storeFile file("kiosk.keystore");
+            storeFile file("./src/main/kiosk.keystore");
             storePassword("CCApp4Team");
             keyAlias("kioskkey");
             keyPassword("CCApp4Team");
